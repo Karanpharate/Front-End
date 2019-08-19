@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: aquamarine;
+}
+
+ul {
+	list-style: none;
+}
+
+.hide {
+	display: none;
+}
+.userListing, .productListing {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.userListing span, a, img {
+	display: block;
+}
+
+.userListing img {
+	width: 140px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.userListing li , .productListing li {
+	padding: 10px;
+	float: left;
+	font-size: 18px;
+	color: red;
+}
+
+.userListing li  {
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.header div {
+	color: #d584ad;
+	font-size: 25px;
+	width: 35%;
+	margin: 10px 0;
+}
+
+.header ul {
+	margin: 0 100px 0 0;
+}
+
+.header li {
+	margin: 15px 25px 15px 0;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.header a:hover {
+	color: #d584ad;
+}
+
+.header li:last-child {
+	margin-right: 0;
+}
+
+.coverPage {
+	font-family: sans-serif;
+	color: #fff;
+	background-image: url('../images/desk.jpg');
+	opacity: 1;
+	padding: 150px 0 20px 0;
+}
+
+.coverPage h4 {
+	font-size: 30px;
+}
+
+.coverPage h1 {
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.coverPage h6 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.coverPage button,
+.footer button {
+	background-color: #dd606c;
+	border-radius: 30px;
+	border: 0;
+	padding: 15px 30px;
+	margin: 10px 0 80px 0;
+}
+
+.coverPage p {
+	color: #fff;
+	font-size: 75px;
+}
+
+.body {
+	padding: 0 150px;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-color:#edcdd9;
+	color: #c8687e;
+}
+
+.body h2 {
+	margin-top: 75px;
+	font-size: 50px;
+}
+
+.body ul {
+	padding: 40px 0;
+}
+
+.body p {
+	font-size: 18px;
+}
+
+.servicesContainer {
+	padding: 20px 0;
+}
+
+.serviceListing li {
+	margin: 40px 0 0;
+	border: none;
+}
+
+.serviceListing p {
+	padding: 10px 25px;
+	font-size: 18px;
+}
+
+.serviceListing h4 {
+	font-size: 25px;
+}
+
+.serviceListing span {
+	padding: 15px;
+}
+
+.footer {
+	background-color: #eee;
+	padding: 75px 0 50px 0;
+}
+
+.footer h3 {
+	font-size: 50px;
+}
+
+.footer p {
+	font-size: 20px;
+	margin: 25px;
+}
