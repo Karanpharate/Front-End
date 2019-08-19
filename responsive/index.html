@@ -9,9 +9,10 @@
     <title></title>
   </head>
   <body>
-    <div class="headerWrapper">
+    <div class="headerWrapper clearfix">
       <div>Essence</div>
-      <ul class="menu">
+      <a class="menuBar" id="menuBar" onclick="togglemMenuBar()"></a>
+      <ul class="menu clearfix" id="menu">
           <li><a href="">Home</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Features</a></li>
@@ -34,7 +35,7 @@
     <div class="body">
         <h2>OUR SERVICES</h2>
         <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam nonummy</P>
-        <ul class="serviceListing ">
+        <ul class="serviceListing clearfix">
             <li>
                 <div class="border text-center">
                     <div class="icon"><span class="glyphicon glyphicon-pencil"></span></div>
@@ -84,5 +85,8 @@
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
         <button type="button" class="btn btn-info" name="button">PURCHASE NOW!</button>
     </div>
+    <script type="text/javascript" src="./script/script.js">
+
+    </script>
   </body>
 </html>
