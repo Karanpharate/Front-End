@@ -13,6 +13,9 @@ ul {
   border-bottom: 3px solid #6c2c4d;
   cursor: pointer;
 }
+.menu a {
+ color: #4082bb;
+}
 .headerWrapper div{
   color: #d584ad;
   font-size: 30px;
